@@ -201,6 +201,10 @@
     }
 }
 
+.banner{
+    display: none;
+}
+
 .social-icons{
     & li:nth-child(1) i{
         color: var(--zf-facebook);
@@ -225,6 +229,10 @@
     .section-size {
         width: 90%;
         margin: auto;
+    }
+
+    .banner{
+        display: inline-block;
     }
 
     .btn-white{
