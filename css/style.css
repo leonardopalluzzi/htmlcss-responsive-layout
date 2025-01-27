@@ -220,6 +220,7 @@ hr{
 }
 
 .social-icons{
+    padding-top: 1rem;
     & li:nth-child(1) i{
         color: var(--zf-facebook);
     }
@@ -259,6 +260,12 @@ hr{
     margin: auto;
     img{
         box-shadow: 0 0 2px black;
+    }
+}
+
+.description-container{
+    p{
+        line-height: 2rem;
     }
 }
 
@@ -311,6 +318,10 @@ hr{
     .section-size {
         width: 90%;
         margin: auto;
+    }
+
+    .social-icons{
+        padding: 2rem 0;
     }
 
     .tiramisu-img{
