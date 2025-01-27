@@ -312,6 +312,22 @@ hr{
     margin: auto;
 }
 
+/* bonus */
+@media screen and (min-width: 576px){
+    .tiramisu-img{
+        float: left;
+        width: 30%;
+        margin-right: 1rem;
+    }
+    .social-icons{
+        padding: 2rem 0;
+    }
+    .btn-white{
+        width: 18%;
+        padding: 0.5rem 0;
+    }
+}
+
 
 /* #region media queries  */
 @media screen and (min-width: 768px) {
