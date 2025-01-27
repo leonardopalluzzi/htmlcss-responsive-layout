@@ -13,6 +13,7 @@
     --zf-title: #4e3969;
     --zf-footer: #7c69a4;
     --zf-light-text: rgb(106, 106, 106);
+    --zf-dark: black;
 
     /* social colors  */
     --zf-facebook: #1a77f3;
@@ -25,6 +26,30 @@
 .debug {
     * {
         border: 1px dashed black;
+    }
+}
+
+.btn-white{
+    background-color: var(--zf-lighter);
+    padding: 0.2rem 0.2rem;
+    text-align: center;
+    box-shadow: 0 0 2px black;
+    border-radius: 1rem;
+    line-height: 50%;
+    transition-duration: 0.5s;
+    a{
+        text-decoration: none;
+    }
+    .btn-text{
+        display: none;
+        font-size: 0.5rem;
+        color: var(--zf-dark);
+        margin-left: 0.2rem;
+        line-height: 50%;
+        vertical-align: middle;
+    }
+    &:hover{
+        box-shadow: none;
     }
 }
 
@@ -46,6 +71,7 @@
 
 .d-flex {
     display: flex;
+    justify-content: space-between;
 }
 
 /* #region col  */
@@ -170,6 +196,27 @@
     img {
         max-width: 100%;
     }
+    .bottom-banner{
+        width: 100%;
+    }
+}
+
+.social-icons{
+    & li:nth-child(1) i{
+        color: var(--zf-facebook);
+    }
+    & li:nth-child(2) i{
+        color: var(--zf-twitter);
+    }
+    & li:nth-child(3) i{
+        color: var(--zf-instagram);
+    }
+    & li:nth-child(4) i{
+        color: var(--zf-pinterest);
+    }
+    & li:nth-child(5) i{
+        color: var(--zf-youtube);
+    }
 }
 
 
@@ -178,6 +225,11 @@
     .section-size {
         width: 90%;
         margin: auto;
+    }
+
+    .btn-white{
+        width: 18%;
+        padding: 0.5rem 0;
     }
 
     .d-flex-tablet{
@@ -191,7 +243,7 @@
     }
 
     #site-main {
-        span {
+        & span:nth-child(1) {
             display: block;
         }
 
@@ -271,6 +323,10 @@
     .section-size {
         width: 80%;
         margin: auto;
+    }
+
+    .btn-white .btn-text{
+        display: inline-block;
     }
 
     /* #region col desktop */
