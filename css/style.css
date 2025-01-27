@@ -312,6 +312,10 @@ hr{
     margin: auto;
 }
 
+
+
+
+/* #region media queries  */
 /* bonus */
 @media screen and (min-width: 576px){
     .tiramisu-img{
@@ -328,8 +332,6 @@ hr{
     }
 }
 
-
-/* #region media queries  */
 @media screen and (min-width: 768px) {
     .section-size {
         width: 90%;
