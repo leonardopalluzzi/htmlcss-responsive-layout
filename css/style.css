@@ -1,5 +1,56 @@
-*{
+/* #region common  */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    /* site colors  */
+    --zf-cta: #ff9614;
+    --zf-main: #f6f5f3;
+    --zf-title: #4e3969;
+    --zf-footer: #7c69a4;
+
+    /* social colors  */
+    --zf-facebook: #1a77f3;
+    --zf-twitter: #009eff;
+    --zf-instagram: #e36594;
+    --zf-pinterest: #e72828;
+    --zf-youtube: #e62222;
+}
+
+.d-flex{
+    display: flex;
+}
+
+/* #region col  */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+[class^="col"] {
+    padding: 1rem;
+}
+
+.col{
+    width: auto;
+    flex-basis: auto;
+}
+
+.col-5{
+    width: 20%;
+}
+
+/* #endregion col  */
+
+#site-header {
+    font-family: "Nerko One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* #endregion common  */
